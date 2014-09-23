@@ -7,7 +7,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-include_recipe 'yum'
+#include_recipe 'yum'
 
 package 'openssl' do
 action :install
