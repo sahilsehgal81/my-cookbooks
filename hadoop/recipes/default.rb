@@ -70,3 +70,7 @@ end
 execute "service hadoop start" do
 	command "sh /usr/local/hadoop/bin/start-all.sh"
 end
+
+execute "service hadoop stop" do
+	command "sh /usr/local/hadoop/bin/stop-all.sh"
+end
